@@ -1,0 +1,275 @@
+body{
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+div.top{
+background-color: rgba(60, 159, 224, 0.815);
+height: 55px;
+padding: 1% 0;
+margin: 0%;
+
+}
+div.top img{
+width: 25px;
+height: 25px;
+}
+div.top li{
+  display: inline;
+  
+}
+div.border, div.no_border, div.span{
+display: inline-block;
+
+}
+div.no_border{
+  width: 20% ;
+  height: 40px;
+}
+div.border1{
+
+ position: absolute;
+  width: 19%;
+  height: 40px;
+  left: 70%;
+  top: 2.5%;
+}
+
+div.span{
+  position: absolute;
+  top: 2.5%;
+  width: 50%;
+  height: 30px;
+  
+  }
+  
+  div.border1 a{
+    border: 1px solid green;
+    text-decoration: none;
+    color: green;
+    background-color: snow;
+    font-size: 13px;
+    padding: 5px;
+}
+div.top2{
+  background-color: rgba(228, 228, 228, 0.678);
+  height: 90px;
+  position: sticky;
+  top: 0;
+}
+div.logo{
+  width: 30%;
+  padding: 0% 5%;
+  display: inline-block;
+}
+div.menu{
+  display: inline-block;
+  width: 60%;
+  text-align: right;
+  position: relative;
+  bottom:0%;
+}
+
+div.menu>ul>li>a{
+	padding:0 10px;
+  text-decoration: none ;
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+}
+div.menu>ul>li:hover{
+  border: transparent;
+  border-radius: 20px;
+  background-color: rgba(175, 169, 169, 0.342);
+  padding: 1% 2%;
+}
+.menu li{
+  display: inline-block;
+}
+
+.dropdown{
+  position: relative;
+  display:block;
+  
+}
+.dropdown-content{
+  display: none;
+  position:absolute; 
+  left: 0;
+min-width: 150px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.37);
+ 
+}
+.dropdown:hover>.dropdown-content{
+  display: block;
+  
+}
+
+.dropdown-content a{
+  display: block;
+  margin: 2%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 2%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+.dropdown-content a:hover{
+  display: block;
+  margin: 2%;
+border-radius: 5px;
+  border: 1px solid gray;
+  background-color: gainsboro;
+  padding: 2%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+li.button {
+  border: transparent;
+  background-color: rgba(60, 159, 224, 0.815);
+  border-radius: 20px;
+  padding: 1% 2%;
+  }
+  li.button:hover{
+    border: transparent;
+  background-color: rgba(60, 159, 224, 0.815);
+  border-radius: 20px;
+  padding: 1% 2%;
+  }
+
+div.strip{
+  height: 30px;
+  background-color: snow;
+  padding: 1% 5% 1% 5% ;
+  margin: 0%;
+}
+div.note{
+  background-color: royalblue ;
+  overflow: hidden;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+div.note p{
+  margin: 0.5%;
+  font-size: 90%;
+}
+div.bottom{
+  padding: 5% 10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.bottom img{
+  width: 40px;
+  height: 40px;
+}
+#big{
+  font-size: 50px;
+}
+#small{
+  font-size: 15px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+div.bottom tr, div.bottom td{
+  column-width: 500px;
+}
+div.image{
+  height: 650px;
+}
+div.one{
+  margin:1% 1%;
+   color: royalblue;
+   display:inline-block; 
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   font-size: 20px; 
+  background-color: white;
+   box-shadow: 2px 2px 8px gray;
+    text-align: center; 
+    width: 30%;
+     height: 17%; 
+     padding: 3%;
+}
+div.bottom2{
+  background-color: white;
+  margin: 3% 0% 5% 4%;
+  width: 58%;
+  height: 30%;
+  display: inline-block;
+  padding: 3%;
+  vertical-align: middle;
+}
+div.bottom3{
+  background-color: white;
+  margin: 3% 0 5% 0;
+  width: 22%;
+  height: 30%;
+  display: inline-block;
+  padding: 3% 0 0 0;
+  vertical-align: middle;
+}
+div.block{
+ padding: 1% 0% 1% 2%;
+ border: 1px solid gray;
+  background-color: whitesmoke;
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 5px gainsboro;
+  border-radius: 2px;
+  width: 43%;
+  height: 50px;
+  display: inline-block;
+  margin: 2% 2% ;
+  text-align: left;
+  
+}
+div.block img{
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  margin-right: 8%;
+}
+div.block h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: royalblue;
+  font-size: 20px;
+
+}
+div.gallery{
+  margin: 0 5%;
+}
+div.gallery img{
+  height: 200px;
+  width: 24%;
+  margin-bottom: 10%;
+}
+div.last{
+  padding: 5%;
+height: 35%;
+background-color: darkslategrey;
+}
+div.last1 img{
+  margin-right: 1%;
+}
+div.last1{
+  line-height: 25px;
+  display: inline-block;
+width: 40%;
+}
+
+div.last1 li , div.last1 p{
+  color: silver;
+  font-size: 15px;
+}
+div.last3 img{
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
